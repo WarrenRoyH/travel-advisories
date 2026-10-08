@@ -1,0 +1,1 @@
+{"generated_at": "2026-10-08T02:30:37.103777+00:00", "total_countries": 248, "counts": {"0": 6, "1": 104, "2": 87, "3": 27, "4": 24}, "critical_count": 24, "elevated_count": 27, "caution_count": 87, "normal_count": 104, "domestic_count": 6, "recent_24h_deltas": 0, "recent_30d_deltas": 20, "delta_countries_24h": [], "status": "OPERATIONAL"}

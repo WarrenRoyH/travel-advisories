@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US State Dept Travel Advisories // Tactical Global Monitor</title>
+  <meta name="description" content="Tactical global monitor of US Department of State travel advisory levels, updated daily with 24-hour delta tracking.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%230f172a' stroke='%23ef4444' stroke-width='8'/><path d='M50 20 L50 80 M20 50 L80 50' stroke='%23ef4444' stroke-width='4'/></svg>">
+</head>
+<body>
+  <div class="hud-scanline"></div>
+
+  <!-- Top Tactical Command Bar -->
+  <header class="hud-header">
+    <div class="header-left">
+      <div class="sys-code">SYS://DOS-TA-MONITOR</div>
+      <div class="status-indicator">
+        <span class="live-dot"></span>
+        <span class="status-text">FEED: SYNCHRONIZED</span>
+      </div>
+      <h1 class="hud-title">TRAVEL ADVISORIES // GLOBAL SITREP</h1>
+    </div>
+
+    <div class="header-center">
+      <div class="telemetry-box">
+        <span class="label">UTC TIME:</span>
+        <span id="utc-clock" class="mono-value">--:--:-- UTC</span>
+      </div>
+      <div class="telemetry-box">
+        <span class="label">CURSOR COORDS:</span>
+        <span id="coords-display" class="mono-value">LAT: --.-° | LON: --.-°</span>
+      </div>
+      <div class="telemetry-box">
+        <span class="label">LAST SYNC:</span>
+        <span id="last-sync-time" class="mono-value">--</span>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <button id="btn-toggle-sitrep" class="tactical-btn alert-btn" title="Open 24-Hour Delta Report">
+        <span class="btn-icon">⚡</span>
+        <span>24H SITREP / DELTAS</span>
+        <span id="delta-badge" class="badge-count">0</span>
+      </button>
+      <div class="search-container">
+        <input type="text" id="country-search" placeholder="FIND COUNTRY / ISO3..." autocomplete="off">
+        <div id="search-results" class="search-dropdown hidden"></div>
+      </div>
+      <button id="btn-reset-map" class="tactical-btn" title="Reset Map View">RESET VIEW</button>
+    </div>
+  </header>
+
+  <!-- Threat Level Filter Bar -->
+  <nav class="threat-filter-bar">
+    <div class="filter-group">
+      <span class="filter-lead">FILTER THEATER:</span>
+      <button class="filter-btn active" data-level="all">
+        <span class="indicator ind-all"></span> ALL SECTORS <span class="count-tag" id="cnt-all">-</span>
+      </button>
+      <button class="filter-btn" data-level="4">
+        <span class="indicator ind-l4"></span> L4: DO NOT TRAVEL <span class="count-tag" id="cnt-l4">-</span>
+      </button>
+      <button class="filter-btn" data-level="3">
+        <span class="indicator ind-l3"></span> L3: RECONSIDER TRAVEL <span class="count-tag" id="cnt-l3">-</span>
+      </button>
+      <button class="filter-btn" data-level="2">
+        <span class="indicator ind-l2"></span> L2: EXERCISE CAUTION <span class="count-tag" id="cnt-l2">-</span>
+      </button>
+      <button class="filter-btn" data-level="1">
+        <span class="indicator ind-l1"></span> L1: NORMAL PRECAUTIONS <span class="count-tag" id="cnt-l1">-</span>
+      </button>
+      <button class="filter-btn" data-level="shifts">
+        <span class="indicator ind-shift"></span> RECENT SHIFTS <span class="count-tag" id="cnt-shifts">-</span>
+      </button>
+    </div>
+
+    <div class="filter-legend">
+      <span class="legend-item"><span class="legend-color l4"></span> L4 Critical</span>
+      <span class="legend-item"><span class="legend-color l3"></span> L3 Elevated</span>
+      <span class="legend-item"><span class="legend-color l2"></span> L2 Caution</span>
+      <span class="legend-item"><span class="legend-color l1"></span> L1 Normal</span>
+      <span class="legend-item"><span class="legend-color l0"></span> US Domestic</span>
+    </div>
+  </nav>
+
+  <!-- Main Map Display Canvas Area -->
+  <main class="viewport-container">
+    <div id="map-container" class="map-viewport">
+      <!-- D3 SVG injected here -->
+      <div id="map-loading" class="map-loading-overlay">
+        <div class="tactical-spinner"></div>
+        <div class="loading-text">INITIALIZING GLOBAL TELEMETRY & VECTOR ATLAS...</div>
+      </div>
+    </div>
+
+    <!-- On-screen Map Controls -->
+    <div class="map-controls">
+      <button id="zoom-in" class="ctrl-btn" title="Zoom In">+</button>
+      <button id="zoom-out" class="ctrl-btn" title="Zoom Out">−</button>
+      <button id="zoom-reset" class="ctrl-btn" title="Reset Extent">⊙</button>
+    </div>
+
+    <!-- Floating Crosshair Info Tooltip -->
+    <div id="tactical-tooltip" class="tactical-tooltip hidden">
+      <div class="tooltip-header">
+        <span id="tt-country" class="tt-name">COUNTRY NAME</span>
+        <span id="tt-iso" class="tt-iso">[ISO]</span>
+      </div>
+      <div id="tt-level-badge" class="tt-badge">LEVEL 0</div>
+      <div class="tt-body">
+        <div class="tt-row"><span class="tt-lbl">STATUS:</span> <span id="tt-status" class="tt-val">-</span></div>
+        <div class="tt-row"><span class="tt-lbl">REVISED:</span> <span id="tt-date" class="tt-val">-</span></div>
+        <div id="tt-delta-row" class="tt-row hidden"><span class="tt-lbl">DELTA:</span> <span id="tt-delta" class="tt-val-alert">ACTIVE SHIFT</span></div>
+      </div>
+      <div class="tt-prompt">CLICK TO INSPECT DOSSIER</div>
+    </div>
+  </main>
+
+  <!-- Side Drawer: Target Intel Dossier -->
+  <aside id="dossier-drawer" class="hud-drawer right-drawer hidden">
+    <div class="drawer-header">
+      <div class="drawer-title">
+        <span class="drawer-icon">🎯</span>
+        <span>TARGET INTEL DOSSIER</span>
+      </div>
+      <button id="close-dossier" class="drawer-close-btn">&times;</button>
+    </div>
+
+    <div class="drawer-content">
+      <div class="dossier-country-header">
+        <div class="dossier-name-row">
+          <h2 id="dossier-name">COUNTRY NAME</h2>
+          <span id="dossier-iso" class="dossier-iso-pill">ISO3</span>
+        </div>
+        <div id="dossier-level-badge" class="level-banner">LEVEL X // STATUS</div>
+      </div>
+
+      <div class="dossier-meta-grid">
+        <div class="meta-card">
+          <div class="meta-label">ADVISORY DATE</div>
+          <div id="dossier-date" class="meta-val">YYYY-MM-DD</div>
+        </div>
+        <div class="meta-card">
+          <div class="meta-label">24H DELTA STATUS</div>
+          <div id="dossier-delta-status" class="meta-val">STEADY</div>
+        </div>
+      </div>
+
+      <!-- Threat Indicators / Categories -->
+      <div class="section-container">
+        <div class="section-title">ACTIVE RISK FACTORS // THREAT PROFILE</div>
+        <div id="dossier-tags" class="tags-container">
+          <!-- Risk tags injected here -->
+        </div>
+      </div>
+
+      <!-- Executive Briefing -->
+      <div class="section-container">
+        <div class="section-title">CONSULAR ADVISORY BRIEFING</div>
+        <div id="dossier-summary" class="briefing-text">
+          Detailed consular advisory text...
+        </div>
+      </div>
+
+      <!-- Sub-regions (for Mexico or countries with state-level advisories) -->
+      <div id="dossier-subregions-container" class="section-container hidden">
+        <div class="section-title">REGIONAL BREAKDOWN (STATE-BY-STATE ADVISORIES)</div>
+        <div id="dossier-subregions-list" class="subregions-grid">
+          <!-- State cards injected here -->
+        </div>
+      </div>
+
+      <!-- Historical Delta on This Country -->
+      <div id="dossier-history-container" class="section-container hidden">
+        <div class="section-title">AUDIT TRAIL // RECENT STATUS DELTAS</div>
+        <div id="dossier-history-list" class="history-list">
+          <!-- History entries injected here -->
+        </div>
+      </div>
+
+      <!-- Action Footer -->
+      <div class="dossier-actions">
+        <a id="dossier-official-link" href="#" target="_blank" rel="noopener noreferrer" class="tactical-btn primary-btn">
+          OFFICIAL STATE DEPT BULLETIN ↗
+        </a>
+        <button id="dossier-center-btn" class="tactical-btn">CENTER TARGET</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Side Drawer: 24-Hour SITREP / Daily Changes Log -->
+  <aside id="sitrep-drawer" class="hud-drawer left-drawer hidden">
+    <div class="drawer-header">
+      <div class="drawer-title">
+        <span class="drawer-icon">⚡</span>
+        <span>24-HOUR ADVISORY SITREP & DELTA AUDIT</span>
+      </div>
+      <button id="close-sitrep" class="drawer-close-btn">&times;</button>
+    </div>
+
+    <div class="drawer-content">
+      <div class="sitrep-overview">
+        <div class="sitrep-stat-box">
+          <div class="sitrep-stat-num" id="sitrep-24h-count">0</div>
+          <div class="sitrep-stat-lbl">24H STATUS DELTAS</div>
+        </div>
+        <div class="sitrep-stat-box">
+          <div class="sitrep-stat-num" id="sitrep-total-tracked">248</div>
+          <div class="sitrep-stat-lbl">TOTAL NATIONS TRACKED</div>
+        </div>
+        <div class="sitrep-stat-box">
+          <div class="sitrep-stat-num" id="sitrep-last-audit-hour">DAILY</div>
+          <div class="sitrep-stat-lbl">REFRESH CADENCE</div>
+        </div>
+      </div>
+
+      <!-- 24-Hour Status Banner -->
+      <div id="sitrep-24h-banner" class="sitrep-banner steady">
+        <span class="banner-status-dot"></span>
+        <span id="sitrep-banner-text">STATUS STEADY: No advisory deltas detected in the last 24 hours.</span>
+      </div>
+
+      <!-- 24-Hour Changes List -->
+      <div class="section-container">
+        <div class="section-title">24-HOUR STATUS CHANGES (FROM DAY BEFORE)</div>
+        <div id="sitrep-24h-list" class="delta-feed">
+          <div class="empty-feed">NO ADVISORY DELTAS DETECTED IN THE LAST 24 HOURS. STATUS HOMOGENEOUS.</div>
+        </div>
+      </div>
+
+      <!-- Historical / Recent Advisory Shifts -->
+      <div class="section-container">
+        <div class="section-title">CHRONOLOGICAL ADVISORY SHIFTS & RECENT REVISIONS</div>
+        <div id="sitrep-recent-list" class="delta-feed">
+          <!-- Seeded recent changes injected here -->
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Bottom HUD Status Bar -->
+  <footer class="hud-footer">
+    <div class="footer-left">
+      <span>SOURCE: U.S. DEPARTMENT OF STATE (BUREAU OF CONSULAR AFFAIRS)</span>
+      <span class="sep">|</span>
+      <span>AUTOMATED DAILY SYNC ENGINE ACTIVE</span>
+    </div>
+    <div class="footer-right">
+      <span>ENDPOINT: travel-advisories.hyltons.us</span>
+      <span class="sep">|</span>
+      <span id="footer-country-count">MONITORING 248 JURISDICTIONS</span>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="vendor/d3.min.js"></script>
+  <script src="vendor/topojson-client.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

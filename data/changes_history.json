@@ -1,0 +1,511 @@
+[
+  {
+    "id": "bebd199c",
+    "timestamp": "2026-09-15T12:00:00Z",
+    "date": "2026-09-15",
+    "iso_3": "KHM",
+    "country": "Cambodia",
+    "type": "CAUTION_ADVISORY",
+    "urgency": "MEDIUM",
+    "old_level": 2,
+    "new_level": 2,
+    "headline": "CAUTION DIRECTIVE: CAMBODIA CLASSIFIED LEVEL 2 [INCREASED CAUTION]",
+    "summary": "The advisory level was increased to 2. The &#8220;unrest&#8221; risk indicator was added. An area of increased risk was added. The advisory summary was updated. Exercise increased caution in Cambodia due to crime and landmines . Some areas have increased risks. Read the entire Travel Advisory. Do Not Travel to: Areas along Cambodian and Thai border due to armed conflict. Advisory summary: Phnom Penh Street crime, particularly phone and bag snatchings, occurs frequently in areas where foreigners gather; resistance can result in injury. Violent crimes, such as sexual assault and homicide do occur and sometimes are committed against foreigners. Battambang, Banteay Meanchey, Pursat, Siem Reap, Pailin, and Kampong Thom provinces Landmines and unexploded ordnance are found in remote areas throughout Cambodia, and especially in Battambang, Banteay Meanchey, Pursat, Siem Reap, Pailin, and Kampong Thom provinces. Do not touch unknown metal objects; instead notify the Cambodia Mine Action Center at 012-800-473/023-995-437. Use a local guide when walking in forested areas or dry rice paddies in these areas. Level 4: Do Not Travel Cambodia &#8211; Thailand Border Do not travel to areas within 50km of the Cambodia &#8211; Thailand border due to ongoing fighting between Cambodian and Thai military forces. There are reports of fighting, including rocket and artillery fire, between Cambodian and Thai forces along the border. Armed conflict has led to reports of civilian casualties. There is a collateral risk of violence, and U.S. citizens are advised to avoid all but essential travel to within 50km of these border areas until further notice. The U.S. government has limited ability to provide emergency services to U.S. citizens in these provinces due to the ongoing risk of armed conflict. Read the destination information page for additional information on travel to Cambodia. If you decide to travel to Cambodia: Do not physically resist any robbery attempt. Have evacuation plans that do not rely on U.S. government assistance. Enroll in the Smart Traveler Enrollment Program (STEP) to get important updates and alerts from the U.S. embassy or consulate. Enrolling helps the U.S. embassy or consulate contact you or your emergency contact in an emergency. Review the Country Security Report for Cambodia. Prepare a contingency plan for emergency situations. Review the Traveler&#8217;s Checklist. Visit the CDC page for the latest Travel Health Information related to your travel. We highly recommend that you buy insurance before you travel. Check with your travel insurance provider about evacuation assistance, medical insurance, and trip cancellation coverage.",
+    "indicators": [
+      "CRIME",
+      "ARMED CONFLICT",
+      "DRONE / MISSILE",
+      "HEALTH / EPIDEMIC",
+      "UNEXPLODED ORDNANCE"
+    ],
+    "adv_date": "2026-09-15",
+    "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/cambodia-travel-advisory.html"
+  },
+  {
+    "id": "9dd4c73c",
+    "timestamp": "2026-09-10T12:00:00Z",
+    "date": "2026-09-10",
+    "iso_3": "ITA",
+    "country": "Italy",
+    "type": "CAUTION_ADVISORY",
+    "urgency": "MEDIUM",
+    "old_level": 2,
+    "new_level": 2,
+    "headline": "CAUTION DIRECTIVE: ITALY CLASSIFIED LEVEL 2 [INCREASED CAUTION]",
+    "summary": "Exercise increased caution in Italy due to terrorism . There is risk of terrorist violence, including terrorist attacks and other activity in Italy. Visit the U.S. Department of State's country reports on terrorism to learn more. Petty crime is common, especially in popular tourist locations and on public transportation, including trains. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, like purse snatching, pickpocketing, and car break-ins.",
+    "indicators": [
+      "TERRORISM",
+      "CRIME",
+      "ARMED CONFLICT"
+    ],
+    "adv_date": "2026-09-10",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ita.html"
+  },
+  {
+    "id": "ecd72eb4",
+    "timestamp": "2026-09-10T12:00:00Z",
+    "date": "2026-09-10",
+    "iso_3": "MKD",
+    "country": "North Macedonia",
+    "type": "STANDARD_ADVISORY",
+    "urgency": "LOW",
+    "old_level": 1,
+    "new_level": 1,
+    "headline": "STANDARD ADVISORY: NORTH MACEDONIA CONFIRMED LEVEL 1 [NORMAL PRECAUTIONS]",
+    "summary": "Exercise normal precaution in North Macedonia . North Macedonia is generally a safe destination for travelers. Review our Travel Guidance for North Macedonia to learn how to prepare for a safe trip.",
+    "indicators": [
+      "NORMAL PRECAUTIONS"
+    ],
+    "adv_date": "2026-09-10",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mkd.html"
+  },
+  {
+    "id": "f5adfe0e",
+    "timestamp": "2026-09-09T12:00:00Z",
+    "date": "2026-09-09",
+    "iso_3": "GBR",
+    "country": "United Kingdom",
+    "type": "CAUTION_ADVISORY",
+    "urgency": "MEDIUM",
+    "old_level": 2,
+    "new_level": 2,
+    "headline": "CAUTION DIRECTIVE: UNITED KINGDOM CLASSIFIED LEVEL 2 [INCREASED CAUTION]",
+    "summary": "Exercise increased caution in the United Kingdom due to terrorism . There is risk of terrorist violence, including terrorist attacks and other activity in the United Kingdom. Visit the U.S. Department of State's country reports on terrorism to learn more. There is also risk of isolated violence by dissident groups in Northern Ireland. These groups mainly target police and military. Petty crime is common, especially in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, like purse or cellphone snatching and pickpocketing.",
+    "indicators": [
+      "TERRORISM",
+      "CRIME",
+      "ARMED CONFLICT"
+    ],
+    "adv_date": "2026-09-09",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.gbr.html"
+  },
+  {
+    "id": "03453ad4",
+    "timestamp": "2026-09-08T12:00:00Z",
+    "date": "2026-09-08",
+    "iso_3": "SUR",
+    "country": "Suriname",
+    "type": "STANDARD_ADVISORY",
+    "urgency": "LOW",
+    "old_level": 1,
+    "new_level": 1,
+    "headline": "STANDARD ADVISORY: SURINAME CONFIRMED LEVEL 1 [NORMAL PRECAUTIONS]",
+    "summary": "Exercise normal precaution in Suriname . Suriname is generally a safe destination for travelers Review the Travel Guidance to learn how to prepare for a safe trip.",
+    "indicators": [
+      "NORMAL PRECAUTIONS"
+    ],
+    "adv_date": "2026-09-08",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sur.html"
+  },
+  {
+    "id": "5bbc2fed",
+    "timestamp": "2026-09-04T12:00:00Z",
+    "date": "2026-09-04",
+    "iso_3": "MAR",
+    "country": "Morocco",
+    "type": "CAUTION_ADVISORY",
+    "urgency": "MEDIUM",
+    "old_level": 2,
+    "new_level": 2,
+    "headline": "CAUTION DIRECTIVE: MOROCCO CLASSIFIED LEVEL 2 [INCREASED CAUTION]",
+    "summary": "Exercise increased caution in Morocco due to risk of terrorism . Some areas have increased risk. Read the entire Travel Advisory. Terrorism There is risk of terrorist violence, including terrorist attacks and other activity in Morocco. Visit the U.S. Department of State's country reports on terrorism to learn more.",
+    "indicators": [
+      "TERRORISM"
+    ],
+    "adv_date": "2026-09-04",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mar.html"
+  },
+  {
+    "id": "81d904cf",
+    "timestamp": "2026-09-04T12:00:00Z",
+    "date": "2026-09-04",
+    "iso_3": "BTN",
+    "country": "Bhutan",
+    "type": "STANDARD_ADVISORY",
+    "urgency": "LOW",
+    "old_level": 1,
+    "new_level": 1,
+    "headline": "STANDARD ADVISORY: BHUTAN CONFIRMED LEVEL 1 [NORMAL PRECAUTIONS]",
+    "summary": "Exercise normal precaution in Bhutan . Bhutan is generally a safe destination for travelers. Medical services for routine and emergency procedures are limited, specifically in rural areas. Read the Health section of the Travel Guidance on this page for more information. Bhutan regularly experiences flooding, landslides, and wildfires. The country is also vulnerable to earthquakes. Review our information on Weather and Natural Disasters in Bhutan. Review our Travel Guidance for Bhutan to learn how to prepare for a safe trip.",
+    "indicators": [
+      "HEALTH / EPIDEMIC",
+      "NATURAL DISASTER"
+    ],
+    "adv_date": "2026-09-04",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.btn.html"
+  },
+  {
+    "id": "7530a4a9",
+    "timestamp": "2026-09-04T12:00:00Z",
+    "date": "2026-09-04",
+    "iso_3": "CHN",
+    "country": "China",
+    "type": "CAUTION_ADVISORY",
+    "urgency": "MEDIUM",
+    "old_level": 2,
+    "new_level": 2,
+    "headline": "CAUTION DIRECTIVE: CHINA CLASSIFIED LEVEL 2 [INCREASED CAUTION]",
+    "summary": "Exercise increased caution in mainland China due to the arbitrary enforcement of local laws, the use of exit bans without a fair and transparent process under the law, and the risk of unjust arrest or detention . Some areas have increased risk. Read the entire Travel Advisory. Exercise increased caution in mainland China due to the arbitrary enforcement of local laws, the use of exit bans without a fair and transparent process under the law, and the risk of unjust arrest or detention. Expansive national security, counterespionage, and data security laws grant Chinese officials broad discretion to detain or interrogate foreign nationals. This places U.S. citizens at risk for conducting even routine business, research, or expression in the public domain. The following may be targeted by Chinese authorities: U.S. citizens of Chinese heritage or origin Anyone involved in business disputes or who has ties to U.S. corporate entities involved in business disputes in China Anyone with a current or prior affiliation with U.S. law enforcement, U.S. military, or U.S. intelligence agencies Anyone traveling on U.S. government-funded programs Individuals with current or former connections to the U.S. government Ability to provide emergency consular services in some regions, especially in the Tibet Autonomous Region, is severely limited. U.S. government employees must follow the policies established by their Department or Agency regarding official or personal travel to China. Exercise increased caution in the Hong Kong Special Administrative Region (SAR) due to the arbitrary enforcement of local laws. Reconsider travel to Macau Special Administrative Region (SAR) due to a limited ability to provide emergency consular services. Exercise increased caution due to the arbitrary enforcement of local laws. Review specific risks and conditions in each jurisdiction. Mainland China \u2013 Level 2: Exercise Increased Caution Arbitrary enforcement of local laws The government of China arbitrarily enforces local laws. It may issue exit bans on U.S. citizens and citizens of other countries without fair and transparent processes under the law. National security laws Chinese law includes an expansive definition of national security and grants Chinese officials with broad discretion to portray a wide range of documents, data, statistics, or materials as \u201cstate secrets,\u201d including retroactively. These laws and other regulations may place foreign nationals at risk for conducting routine research or handling data that is publicly or commercially available to Chinese nationals. U.S. citizens in China may face detention without information about their alleged crimes or access to U.S. consular services. U.S. citizens in China may also face interrogations and detention without fair and transparent treatment under the law. U.S. citizens and other foreigners in China have faced interrogation, detention, and expulsion for alleged violations of national security laws. This includes, but is not limited to: individuals with current or previous relationships with U.S. law enforcement, U.S. military, U.S. intelligence agencies, or other agencies of the U.S. government; individuals on U.S. government-funded programs; business people; former foreign-government personnel; academics; relatives of Chinese citizens involved in legal disputes; journalists. Local authorities have detained and charged U.S. citizens involved in civil business disputes with criminal offenses under these laws. In some cases, U.S. citizens have been able to secure release by settling legal disputes in favor of Chinese businesses. In addition to their ability to detain and prosecute foreign nationals for alleged espionage and/or national security violations, authorities in China are also authorized to prevent foreign nationals suspected of engaging in so-called espionage activities from leaving China. China has disproportionately targeted U.S. citizens of Chinese heritage or naturalized U.S. citizens of Chinese descent for espionage investigations. This is particularly common for those with previous employment or other relationships with the U.S. government. People accused of violating national security laws, including espionage, are often denied access to a lawyer. There is increased official scrutiny of U.S. and third-country firms operating in China, such as professional service and due diligence companies. China\u2019s security services have detained U.S. citizens, who have faced prosecution, including for conducting academic and business research or accessing publicly available material inside China. Wrongful detention and exit bans The Secretary of State has determined that China is wrongfully detaining some U.S. citizens. China has also used restrictions on travel or departure from China, referred to as \u201cexit bans,\u201d to: force people to participate in government and Chinese Communist Party (CCP) investigations; resolve civil disputes in favor of Chinese citizens; pressure family members or associates of a restricted person to return to China from abroad, even if the family member is estranged or the associate is no longer in contact with the restricted person; gain bargaining leverage over foreign governments. U.S. citizens might only become aware of an exit ban when they attempt to depart China. There may be no available legal process to contest an exit ban in a court of law. Security services and investigative agencies have imposed exit bans using non-transparent CCP-led processes outside of the court system. Chinese authorities have placed exit bans on individuals, including U.S. citizen minor children, whose relatives are under investigation by Chinese authorities, to compel them to return to China. In some cases, the Chinese government has told U.S. citizens that the exit bans will only be lifted if they provide certain testimony, even if the U.S. citizens state that the testimony would be false. The U.S. Embassy has received reports from U.S. citizens of being forced to sign statements Chinese officials know to be untrue. In multiple cases, exit bans related to civil or business disputes have remained in place for years. These exit bans have prevented U.S. citizens from obtaining needed medical treatment outside of China. Dual nationals and U.S. citizens of Chinese heritage China does not recognize dual nationality. The Chinese government claims to represent the interests of all ethnic Chinese individuals all over the world, regardless of nationality. Dual U.S.-Chinese citizens, former Chinese citizens, those who hold Taiwan travel documents, and U.S. citizens of Chinese descent may be subject to additional scrutiny and harassment. If you hold a Chinese identity card (\u8eab\u4efd\u8bc1 shenfenzheng), Chinese residency book (\u6237\u53e3\u672c hukouben), or enter China on a Chinese-issued travel document (\u53f0\u80de\u8bc1 taibaozheng or \u65c5\u884c\u8bc1 luxingzheng), Chinese authorities may consider you to be Chinese only and not recognize your U.S. citizenship. They may restrict or prohibit U.S. consular assistance if you are subject to an exit ban, emergency, disappearance, arrest, or detention. This includes minor children. If you are a U.S. citizen and choose to enter mainland China on travel documents other than a U.S. passport and are arrested or detained, the Chinese government is not obligated to notify the U.S. Embassy or the U.S. Consulates General, or to allow consular access. You may still request notification to the closest U.S. embassy or consulate, but the Chinese government is not required to provide it. Dual nationals and naturalized U.S. citizens of Chinese descent are strongly encouraged to enter China using a U.S. passport with an appropriate Chinese visa. The U.S. Embassy has received reports of authorities forcing dual nationals to enter China on their Chinese travel documents, or authorities refusing to recognize U.S. citizenship if a former Chinese national has not completed all steps to formally renounce their Chinese citizenship. U.S. citizens who were formerly Chinese citizens may be required to complete additional bureaucratic steps before being allowed to leave the country. They may also face increased scrutiny of previous professional and personal actions while they held Chinese citizenship, including past or current business dealings. U.S. citizens who were formerly Chinese citizens may also face departure restrictions. Former Chinese citizens who have not formally renounced or canceled their Chinese citizenship are often compelled to cancel their household registration and relinquish rights to social welfare programs before exiting China. The Chinese government has imposed exit bans while denying claims of U.S. citizenship for natural born and naturalized (non-dual) U.S. citizens of Chinese descent who entered China using a U.S. passport. Communication and expression Assume that China\u2019s security services can read your emails, texts, and social media posts if you send them to or from China. Assume they can also read your messages if you use Chinese apps, even when you are in another country, including the United States. Security personnel could detain or deport U.S. citizens for sending private electronic messages critical of the government of China, Hong Kong SAR, or Macau SAR or the CCP. China has detained people even when they sent these messages outside of China. All universities and schools in China are controlled by the CCP. If foreign teachers or students in China express ideas contrary to what the Communist Party believes, they could be deported or detained. The government of China strictly manages the religious activities of foreigners. Foreigners wishing to hold collective religious services must abide by Chinese laws. Religious exchanges between foreigners and Chinese religious institutions are controlled by national or provincial religious associations. There are restrictions on the transport of religious materials to China. U.S. citizens conducting collective religious services have reported interference by Chinese authorities. Foreign citizens engaging in proselytizing, distributing religious materials, or conducting religious services or education with Chinese citizens without prior approval is strictly prohibited and may result in fines, detention, or deportation. Drugs Do not use illegal drugs in China or before you go to China. If you test positive for drugs, even if the drug was legal elsewhere, Chinese police can detain you right away. You could be fined, deported, or banned from ever coming back. Chinese authorities may force you to give blood, urine, or hair samples for drug testing. Penalties for illicit drug offenses such as importation, possession, or consumption are severe. Guns and munitions China has extremely strict laws about weapons and ammunition. If you break these laws, even by mistake, you could go to prison. Before you travel to China, carefully check all your bags, backpacks, and luggage. Make sure there are no bullets, guns, or any pieces of ammunition inside \u2013 not even empty bullet casings or small parts. If you hunt or shoot guns, do not use those same bags when you travel to China. Use different bags that have never been used for hunting or shooting. Be very careful and follow all Chinese laws about weapons. Breaking these laws can get you in serious trouble. Demonstrations Do not join protests or demonstrations in China. Chinese authorities have very broad laws about what counts as a crime against the government. If you join a demonstration or any other activities that authorities interpret as against China, you could be arrested and charged of serious crimes. This includes things the government sees as: Trying to break apart China (act of secession) Working against the government (subversion) Terrorism Working with another country against China (collusion with a foreign country) Stay aware of your surroundings and avoid demonstrations. Xinjiang Uyghur Autonomous Region and Tibetan Autonomous Prefectures Extra security measures, such as security checks and increased levels of police presence and surveillance, are common in the Xinjiang Uyghur Autonomous Region and Tibetan Autonomous Prefectures. Authorities may impose curfews and travel restrictions on short notice. Tibet Autonomous Region China has severely restricted U.S. consular officers from traveling to the Tibet Autonomous Region. This decision by China severely limits the ability of the U.S. embassy to provide consular services to U.S. citizens in Tibet. This includes emergency situations such as natural disasters or injury while engaged in mountain sports. The U.S. government has limited information about medical or emergency services in the Tibet Autonomous Region. Extra security measures, such as security checks and increased levels of police presence and surveillance, are common in the Tibet Autonomous Region. Authorities may impose curfews and travel restrictions on short notice. If you decide to travel to the Tibet Autonomous Region: Enroll in Smart Traveler Enrollment Program (STEP) to get important updates and alerts from the U.S. embassy or consulate. Enrolling helps the U.S. embassy or consulate contact you or your emergency contact in an emergency. Enter China on your U.S. passport with a valid Chinese visa and keep it with you. Read the destination information page for Mainland China . Check with the Embassy of the People\u2019s Republic of China in the United States for the most updated information on Chinese government requirements for travel to China. Review the China Country Security Report . Visit the Centers for Disease Control and Prevention (CDC) website for the latest Travel Health Information for China. Whether you are a first-time or frequent traveler, use the International Traveler\u2019s Checklist . We highly recommend that you buy travel insurance before you travel. Check with your travel insurance provider about evacuation assistance, medical insurance, and trip cancellation coverage. Be aware that U.S. citizens and U.S. Lawful Permanent Residents (LPRs) with Chinese heritage or with a connection to the United States government may be targeted for harassment, arrests, detention, or exit bans. Avoid demonstrations. Avoid communicating, either privately or publicly, opinions or observations that might be considered embarrassing or otherwise negative about China or the Chinese authorities. Exercise caution near large gatherings or protests. Avoid taking photographs of protesters or police without permission. Keep a low profile. If you are arrested or detained, ask police or prison officials to notify the U.S. Embassy in Beijing immediately. Do not consume illegal drugs in China or before going to China. Do not bring any bullets, cartridges, weapons, munitions, or even remnants of or partial munitions to China. Follow U.S. Embassy Beijing on X , WeChat , and Weibo . Exercise increased caution in Hong Kong Special Administrative Region (SAR) due to the arbitrary enforcement of local laws . Reconsider travel to Macau Special Administrative Region (SAR) due to a l imited ability to provide emergency consular services. Exercise increased caution due to the a rbitrary enforcement of local laws.",
+    "indicators": [
+      "TERRORISM",
+      "CRIME",
+      "CIVIL UNREST",
+      "ARMED CONFLICT",
+      "WRONGFUL DETENTION",
+      "HEALTH / EPIDEMIC"
+    ],
+    "adv_date": "2026-09-04",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.chn.html"
+  },
+  {
+    "id": "5dcb185d",
+    "timestamp": "2026-09-04T12:00:00Z",
+    "date": "2026-09-04",
+    "iso_3": "HKG",
+    "country": "Hong Kong",
+    "type": "CAUTION_ADVISORY",
+    "urgency": "MEDIUM",
+    "old_level": 2,
+    "new_level": 2,
+    "headline": "CAUTION DIRECTIVE: HONG KONG CLASSIFIED LEVEL 2 [INCREASED CAUTION]",
+    "summary": "Exercise increased caution when traveling to the Hong Kong Special Administrative Region (SAR) due to the a rbitrary enforcement of local laws. Exercise increased caution due to the arbitrary enforcement of local laws . Hong Kong SAR authorities have passed laws that limit people\u2019s civil liberties. The laws apply to anyone in Hong Kong, including foreigners. Authorities have also issued arrest warrants for individuals, including U.S. citizens, located outside of Hong Kong for activities undertaken overseas. U.S. government employees must follow the policies established by their Department or Agency regarding official or personal travel to China, including to Hong Kong SAR. National security laws and restriction of civil liberties Since 2020, Hong Kong SAR authorities have taken away many freedoms from people living there. On June 30, 2020, China imposed the Law on Safeguarding National Security in the Hong Kong SAR. On March 23, 2024, Hong Kong passed another similar law. Both laws list many crimes that are vaguely defined. The crimes include: Trying to break apart China (acts of secession) Working against the government (subversion) Terrorism Working with other countries against China (collusion with foreign entities) Betraying the country (treason) Stealing government secrets Insurrection Sabotage against public infrastructure External interference On March 23, 2026, the Hong Kong government changed the implementing rules relating to the Hong Kong National Security Law. It is now a criminal offense in national security cases to refuse to give the Hong Kong police passwords or not assist in decryption to allow authorities full access to all personal electronic devices, including cellphones and laptops. This legal change applies to everyone, including U.S. citizens, in Hong Kong, upon arrival, or just transiting Hong Kong International Airport. In addition, the Hong Kong government also has more authority to take and keep any personal devices, as evidence, that they claim are linked to national security offenses. China applies its national security laws to everyone in Hong Kong SAR, including foreigners. China may also attempt to apply these laws to people who do not live in Hong Kong \u2013 including U.S. citizens and permanent residents. If you say anything critical about China or Hong Kong SAR, you could be arrested, detained, kicked out, or prosecuted. Hong Kong SAR authorities have issued arrest warrants for people who live in other countries and are alleged to be violating these laws. This includes U.S. citizens and permanent residents living outside their jurisdiction. Hong Kong SAR authorities are offering cash rewards to anyone who gives information that helps them arrest these people if they come to Hong Kong SAR. Dual nationality The Hong Kong SAR government does not recognize dual nationality. Dual U.S.-Chinese citizens and U.S. citizens of Chinese descent may be subject to additional security procedures and harassment. If you are a dual U.S.-Chinese citizen and enter Hong Kong SAR on a U.S. passport, and you are detained or arrested, Chinese authorities must notify the U.S. Embassy or a U.S. Consulate General of your detention. They must allow U.S. consular officials to have access to you. Even if you enter on a U.S. passport, U.S. consular officers may not have access to you. For more information, visit Consular Protection and Right of Abode in HK(SAR) for Dual Nationals \u2013 U.S. Consulate General Hong Kong & Macau . Demonstrations Participating in demonstrations or other activities that authorities interpret as constituting an act of secession, subversion, terrorism, or collusion with a foreign country could result in criminal charges under the 2020 Hong Kong National Security Law, the 2024 Safeguarding National Security Ordinance, or other legal provisions. Be aware of your surroundings and avoid demonstrations.",
+    "indicators": [
+      "TERRORISM",
+      "CRIME",
+      "CIVIL UNREST",
+      "ARMED CONFLICT"
+    ],
+    "adv_date": "2026-09-04",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.hkg.html"
+  },
+  {
+    "id": "a16d9a87",
+    "timestamp": "2026-09-04T12:00:00Z",
+    "date": "2026-09-04",
+    "iso_3": "MAC",
+    "country": "Macau",
+    "type": "ELEVATED_ADVISORY",
+    "urgency": "HIGH",
+    "old_level": 3,
+    "new_level": 3,
+    "headline": "ELEVATED THREAT: MACAU CLASSIFIED LEVEL 3 [RECONSIDER TRAVEL]",
+    "summary": "Reconsider travel to Macau SAR due to a limited ability to provide emergency consular services and a rbitrary enforcement of local law s. Reconsider travel to Macau SAR due to a limited ability to provide emergency consular services and arbitrary enforcement of local laws . Reconsider travel due to limited ability for the U.S. government to provide emergency consular services. There are travel restrictions imposed on U.S. diplomatic personnel. Reconsider travel due to arbitrary enforcement of local laws. U.S. government employees must follow the policies established by their Department or Agency regarding official or personal travel to China, including to Macau SAR. The U.S. government has a limited ability to provide emergency services to U.S. citizens in Macau SAR. This is due to China\u2019s Ministry of Foreign Affairs travel restrictions on U.S. diplomatic personnel. Even in an emergency, the Ministry of Foreign Affairs requires all U.S. diplomatic personnel, including those accredited to Macau SAR, to apply for and receive visas before entering Macau SAR. This can take a week or longer. That delay can significantly limit the U.S. government\u2019s ability to offer timely consular services in Macau SAR. Dual nationality The Macau SAR government does not recognize dual nationality. Dual U.S.-Chinese citizens and U.S. citizens of Chinese descent may face additional security checks and harassment. If you are a dual U.S.-Chinese citizen and enter Macau SAR on a U.S. passport, Chinese authorities must notify the U.S. Embassy or a U.S. Consulate General if you are arrested. They must also allow U.S. consular officials to have access to you. However, even if you enter on a U.S. passport, U.S. consular officers may not be able to access you. For more information, visit Consular Protection and Right of Above in HK(SAR) for Dual Nationals \u2013 U.S. Consulate General Hong Kong & Macau . Demonstrations Participating in demonstrations or any other activities that authorities interpret as constituting an act of secession, subversion, terrorism, or collusion with a foreign country could result in criminal charges under local broad security laws. Be aware of your surroundings and avoid demonstrations.",
+    "indicators": [
+      "TERRORISM",
+      "CIVIL UNREST",
+      "ARMED CONFLICT"
+    ],
+    "adv_date": "2026-09-04",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mac.html"
+  },
+  {
+    "id": "f3dca8c7",
+    "timestamp": "2026-09-04T12:00:00Z",
+    "date": "2026-09-04",
+    "iso_3": "NPL",
+    "country": "Nepal",
+    "type": "CAUTION_ADVISORY",
+    "urgency": "MEDIUM",
+    "old_level": 2,
+    "new_level": 2,
+    "headline": "CAUTION DIRECTIVE: NEPAL CLASSIFIED LEVEL 2 [INCREASED CAUTION]",
+    "summary": "Exercise increased caution in Nepal due to natural disasters . Some areas have increased risk. Read the entire Travel Advisory. Nepal regularly experiences earthquakes, floods, and landslides. Earthquakes can happen suddenly with little warning, including in the Kathmandu Valley. During the monsoon season from June to September, heavy rain can cause flash floods and landslides. These can block roads, damage buildings, and make it hard to get help in an emergency. Review our information on Weather and Natural Disasters in Nepal. Emergency services Medical services have limited ability to handle regular and emergency care. Review the Health section of the Travel Guidance on this page for more information. Hospitals in Kathmandu are usually better than in other areas, but they can be crowded, may lack some equipment or medicines, and often ask that you pay before treatment. Medical treatment of foreigners is not paid for by the Government of Nepal. Bring the medicines you need, get travel health insurance that covers medical evacuation, and understand you might need to go to another country for serious treatment. Do not travel to: The Rasuwagadhi-Timure-Syafrubesi area of Rasuwa district, including the Nepal-China border crossing , for any reason due to flood damage, disrupted transportation and communications, search-and-rescue and recovery operations, and the risk of additional flooding and landslides.",
+    "indicators": [
+      "ARMED CONFLICT",
+      "HEALTH / EPIDEMIC",
+      "NATURAL DISASTER"
+    ],
+    "adv_date": "2026-09-04",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.npl.html"
+  },
+  {
+    "id": "74a452f9",
+    "timestamp": "2026-09-04T12:00:00Z",
+    "date": "2026-09-04",
+    "iso_3": "PER",
+    "country": "Peru",
+    "type": "CAUTION_ADVISORY",
+    "urgency": "MEDIUM",
+    "old_level": 2,
+    "new_level": 2,
+    "headline": "CAUTION DIRECTIVE: PERU CLASSIFIED LEVEL 2 [INCREASED CAUTION]",
+    "summary": "Exercise increased caution in Peru due to risk of crime, unrest, kidnapping , and terrorism . Some areas have increased risk. Read the entire Travel Advisory. U.S. government employees working in Peru need special authorization to travel to the Colombia-Peru border area in the Loreto Region due to safety risks. U.S. government employees working in Peru need special authorization to travel to the Valley of the Apur\u00edmac, Ene, and Mantaro Rivers (VRAEM), due to safety risks. U.S. government employees working in Peru need special authorization to travel to the VRAEM\u2019s boundary cities of Abancay, Ayacucho, Huancavelica, and Huancayo due to safety risks. Review our information on Travel to High-Risk Areas . Crime Crime is common in Peru. Petty theft, carjackings, muggings, assaults, and other violent crime often happen even in daylight hours and with many witnesses around. Although rare, \u201cexpress kidnappings,\u201d where the victim is taken to a banking institution and forced to remove funds from their own accounts, may occur. The risk of crime increases at night. Criminal groups sometimes set up roadblocks to rob people in areas outside of Lima. Unrest Demonstrations occur regularly throughout the country. Public demonstrations can take place for political and economic issues. Demonstrations can shut down local roads, trains, and major highways. This often happens without warning or clear information on reopening times. Road closures can limit access to public transportation and airports. Closures may also disrupt travel in and between cities. Restrictions for U.S. government employees Due to road safety risks, U.S. government employees working in Peru are prohibited from nighttime driving. The only exception is within cities, between Lima and Huacho (to the north), and Lima and Paracas (to the south). U.S. government employees working in Peru may travel at night with commercial bus companies along the Pan-American Highway, to Huaraz, and on the Lima-Arequipa-Cusco corridor. Terrorism There is risk of terrorist violence, including terrorist attacks and other activity in Peru. Visit the U.S. Department of State's Country Reports on Terrorism to learn more. Kidnapping Kidnapping in Peru, which could lead to prolonged detentions for ransom, are relatively uncommon but remains a notable security concern. Visitors should remain aware of their surroundings. Other U.S. travelers should not consume Ayahuasca or Kambo because of the known dangers. U.S. citizens have suffered serious illness and, in some cases, died after taking these drugs. They have also been sexually assaulted, injured, or robbed while under the influence of these substances. Ayahuasca or Kambo consumption centers are located throughout Peru, including the jungle regions of Iquitos, Tarapoto, and Pucallpa, and tourist areas such as Cusco. U.S. citizen travelers should not use coca products (such as tea or candy). They are often offered as a remedy for high elevation symptoms but are considered a controlled substance and can interact with other medications. Do Not Travel to the Colombia-Peru border area in the Loreto Region due to crime . Do Not Travel to the Valley of the Apur\u00edmac, Ene, and Mantaro Rivers (VRAEM), which includes Vilcabamba, due to crime and threats of terrorism . Do Not Travel to Abancay, Ayacucho, Huancavelica, and Huancayo within the regions of Ayacucho, Cusco, Huancavelica, and Jun\u00edn, due to crime and threats of terrorism . Note : The City of Cusco and popular tourist sites nearby, like the Sacred Valley, the Inca Trail, and Machu Picchu, are not located in the affected area.",
+    "indicators": [
+      "TERRORISM",
+      "CRIME",
+      "CIVIL UNREST",
+      "KIDNAPPING",
+      "ARMED CONFLICT"
+    ],
+    "adv_date": "2026-09-04",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.per.html"
+  },
+  {
+    "id": "30e12977",
+    "timestamp": "2026-09-04T12:00:00Z",
+    "date": "2026-09-04",
+    "iso_3": "STP",
+    "country": "Sao Tome and Principe",
+    "type": "CAUTION_ADVISORY",
+    "urgency": "MEDIUM",
+    "old_level": 2,
+    "new_level": 2,
+    "headline": "CAUTION DIRECTIVE: SAO TOME AND PRINCIPE CLASSIFIED LEVEL 2 [INCREASED CAUTION]",
+    "summary": "Exercise increased caution in Sao Tome and Principe due to health risks. U.S. government employee travel restrictions As of August 12, 2026, U.S. government employees working for the U.S. Mission to Angola and Sao Tome and Principe no longer need special permission to travel to Sao Tome and Principe due to safety risks. Health Medical services in Sao Tome and Principe are limited. There are no adequate trauma or ambulance services. Even minor health issues may require medical evacuation at the traveler\u2019s expense. Review our information on Travel Insurance .",
+    "indicators": [
+      "HEALTH / EPIDEMIC"
+    ],
+    "adv_date": "2026-09-04",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.stp.html"
+  },
+  {
+    "id": "212f01a9",
+    "timestamp": "2026-09-04T12:00:00Z",
+    "date": "2026-09-04",
+    "iso_3": "TJK",
+    "country": "Tajikistan",
+    "type": "CAUTION_ADVISORY",
+    "urgency": "MEDIUM",
+    "old_level": 2,
+    "new_level": 2,
+    "headline": "CAUTION DIRECTIVE: TAJIKISTAN CLASSIFIED LEVEL 2 [INCREASED CAUTION]",
+    "summary": "Exercise increased caution in Tajikistan due to the risk of terrorism , unexploded landmines , and limited ability to assist U.S.-Tajik dual nationals . Some areas have increased risk. Read the entire Travel Advisory.. Terrorism There are terrorist organizations in the region. There is risk of terrorist violence, including terrorist attacks and other activity in Tajikistan. Visit the U.S. Department of State\u2019s country reports on terrorism to learn more. Landmines and unexploded ordnances Unexploded landmines and cluster munitions are a hazard along the Afghan-Tajik and Uzbek-Tajik borders, the Vakhsh and Rasht valleys, and in the popular hiking area of Romit. Pay close attention to land mine warning signs. Do not venture off the road into areas marked with red and white plastic tape for any reason. Avoid roadside ditches, shoulders, and unmarked trails in these regions. Never touch anything resembling unexploded munitions. Some unmarked landmines may also be present in the Surobad district of GBAO and the Sarazam district. U.S. government employee travel restrictions U.S. government employees working in Tajikistan are not permitted to travel between cities at night. U.S. government employees working in Tajikistan must obtain special authorization from the embassy security office to travel to border areas with Afghanistan due to safety risks. U.S. government employees working in Tajikistan must obtain special authorization from the embassy security office to travel to GBAO due to the potential for armed conflict, in addition to receiving a special permit from the Tajik government to enter GBAO. Dual nationals Tajikistan does not recognize dual nationality with the United States. If you are a dual U.S.-Tajik citizen or of Tajik descent, local authorities may single you out for extra questioning and harassment. Dual nationals may be denied access to U.S. consular officials while in detention. Reconsider travel to: Tajikistan\u2019s border with Afghanistan due to terrorism . Gorno-Badakhshan Autonomous Oblast (GBAO) due to the potential for armed conflict .",
+    "indicators": [
+      "TERRORISM",
+      "ARMED CONFLICT",
+      "UNEXPLODED ORDNANCE"
+    ],
+    "adv_date": "2026-09-04",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tjk.html"
+  },
+  {
+    "id": "8ecebc31",
+    "timestamp": "2026-08-31T12:00:00Z",
+    "date": "2026-08-31",
+    "iso_3": "BRA",
+    "country": "Brazil",
+    "type": "CAUTION_ADVISORY",
+    "urgency": "MEDIUM",
+    "old_level": 2,
+    "new_level": 2,
+    "headline": "CAUTION DIRECTIVE: BRAZIL CLASSIFIED LEVEL 2 [INCREASED CAUTION]",
+    "summary": "Exercise increased caution in Brazil due to crime and kidnapping . Some areas have increased risk. Read the entire Travel Advisory. Crime Violent crime occurs in urban areas, day and night. Crimes include murder, armed robbery, and carjacking. Gang activity and organized crime are widespread. and are often tied to the illegal drug trade. Assaults are common, including with sedatives or drugs placed in drinks, especially in Rio de Janeiro. Criminals target foreigners through dating apps or at bars before drugging and robbing their victims. U.S. government employees working in Brazil need special authorization to travel to the following areas due to safety risks: - Within 100 miles/160 km of Brazil\u2019s land borders (except travel to the Foz do Iguacu and Pantanal), - informal housing developments in Brazil and, - the Administrative Regions of Ceilandia, Santa Maria, Sao Sebastiao, and Paranoa between 6:00 p.m. and 6:00 a.m. U.S. government employees are advised not to use municipal buses in Brazil due to serious risks of robbery and assault, especially at night. Kidnapping Kidnapping for ransom involving U.S. citizens is rare but occasionally occurs. Brazilians are most often targeted, but foreigners remain vulnerable. U.S. businesses frequently arrange enhanced security for senior executives in S\u00e3o Paulo and other major cities. Organized criminal groups sometimes target individuals observed withdrawing money from ATMs or leaving banks. Use ATMs in secure locations such as shopping malls or major hotels. Express kidnapping \u2014 in which criminals force victims at gunpoint to withdraw cash from multiple ATMs or transfer funds via banking apps (commonly Pix) \u2014 is an ongoing threat to both locals and foreigners. To reduce your risk, vary your routes and travel times; park in well-lit, guarded garages, as criminals often confront victims at their vehicles; and limit the number of bank and credit cards you carry to reduce potential losses Do Not Travel to : International land borders due to crime and kidnapping. Informal housing developments (favelas, vilas, comunidades or conglomerados) due to crime. Brasilia\u2019s Satellite cities due to crime.",
+    "indicators": [
+      "CRIME",
+      "KIDNAPPING"
+    ],
+    "adv_date": "2026-08-31",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bra.html"
+  },
+  {
+    "id": "67b1983f",
+    "timestamp": "2026-08-31T12:00:00Z",
+    "date": "2026-08-31",
+    "iso_3": "LBY",
+    "country": "Libya",
+    "type": "CRITICAL_ADVISORY",
+    "urgency": "CRITICAL",
+    "old_level": 4,
+    "new_level": 4,
+    "headline": "CRITICAL BULLETIN: LIBYA RETAINS LEVEL 4 [DO NOT TRAVEL]",
+    "summary": "Do not travel to Libya for any reason due to crime , terrorism , health concerns , unrest , kidnapping , or landmines . Read entire Travel Advisory. Do not travel to Libya for any reason. Restrictions on U.S. Government Personnel Movement There is currently no U.S. Embassy in Libya. The U.S. government cannot offer emergency services to U.S. citizens in Libya due to the safety risks . U.S. citizens in Libya in need of routine consular services should contact the U.S. Embassy in Tunis , Tunisia for assistance. Crime Clashes among armed groups, including violence between competing armed groups and government-aligned forces, can occur at any time. Weapons are plentiful in Libya and are controlled by various government organizations, armed groups, tribal factions, and criminal organizations. Criminal organizations in Libya are known to be armed and involved in drug and human trafficking and other smuggling activity. Targeted kidnappings and assassinations are common and committed by criminal organizations and armed groups. Crimes of opportunity occur frequently. Wealthy or foreign nationals are often victims of these crimes. Terrorism There is risk of terrorist violence, including terrorist attacks and other activity in Libya. Visit the U.S. Department of State's country reports on terrorism to learn more. Terrorist attacks could occur with little or no warning, targeting government facilities. The Commandant of the U.S. Coast Guard has determined that effective anti-terrorism measures are not in place in Libyan ports and has imposed conditions of entry on vessels that arrive in U.S. ports having visited ports in Libya. Mariners and passengers traveling through the ports of Libya should exercise increased caution. Review our information on Terrorism . Health Refer to our list of medical providers . Make sure your insurance includes medical evacuation coverage. Check with your doctor about required vaccines for high-risk exposure before you go to Libya. Review the Health section in the Travel Guidance for Libya. Unrest Demonstrations related to the local political situation are common and may occur with little notice. Demonstrations may disrupt transportation and other essential services or lead to violence. Even demonstrations intended to be peaceful can turn confrontational and escalate into violence. Outbreaks of violence between protestors and government forces can occur with little warning and impact U.S. citizens. Avoid demonstrations and large crowds. Check local media for breaking news. Be prepared to adjust your plans accordingly U.S. citizens should always carry proof of citizenship and valid immigration status, but having these documents does not guarantee fair treatment. Check local media for breaking news. Be prepared to adjust your plans. During large-scale incidents of unrest, principal transportation options including highways, airports, and borders have been closed. Kidnappings, Hostage-taking Kidnapping is widespread, and victims have included U.S. citizens. Kidnappers may take advantage of unprepared travelers. Armed groups sometimes detain travelers for arbitrary reasons, do not grant detainees access to lawyers or legal processes, and do not allow detainees to inform others of their status. Criminal or armed groups have detained and threatened to kill, injure, or continue to detain individuals in order to compel a third party (including a governmental organization) to do something as a condition of release. Choose one family member to serve as the point of contact if you are kidnapped or taken hostage. That person can communicate with kidnappers or hostage-takers, media, U.S. or foreign government agencies, and members of Congress. Other Unexploded ordnance Landmines and unexploded ordnance exist throughout Libya. The locations of landmines and unexploded ordnance are often not marked or easy to recognize. Obey landmine warning signs. Do not venture off the road into areas marked with red and white plastic tape. Avoid roadside ditches, shoulders, and unmarked trails. Never touch anything resembling unexploded munitions. Aviation safety While there are airports in Libya with regular domestic and international flights, flights are often delayed, rerouted, and cancelled without warning. The U.S. government prohibits U.S. commercial aviation operations within Libyan airspace. Review the Transportation section regarding aviation safety oversight in the Travel Guidance for Libya. The Federal Aviation Administration (FAA) has issued a Notice to Airmen (NOTAM) and a Special Federal Aviation Regulation (SFAR). This is due to risks to civil aviation operating within or nearby Libya. For more information U.S. citizens should consult the Federal Aviation Administration\u2019s Prohibitions, Restrictions and Notices .",
+    "indicators": [
+      "TERRORISM",
+      "CRIME",
+      "CIVIL UNREST",
+      "KIDNAPPING",
+      "ARMED CONFLICT",
+      "HEALTH / EPIDEMIC",
+      "UNEXPLODED ORDNANCE"
+    ],
+    "adv_date": "2026-08-31",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lby.html"
+  },
+  {
+    "id": "6f7d56ef",
+    "timestamp": "2026-08-30T12:00:00Z",
+    "date": "2026-08-30",
+    "iso_3": "OMN",
+    "country": "Oman",
+    "type": "ELEVATED_ADVISORY",
+    "urgency": "HIGH",
+    "old_level": 3,
+    "new_level": 3,
+    "headline": "ELEVATED THREAT: OMAN CLASSIFIED LEVEL 3 [RECONSIDER TRAVEL]",
+    "summary": "Reconsider travel to Oman due to risk of armed conflict and terrorism . Some areas have increased risk. Read the entire Travel Advisory. As of August 30, 2026, family members may join U.S. government employees who work in Oman. Armed Conflict Following the onset of hostilities between the United States and Iran on February 28, 2026, there has been an ongoing threat of drone and missile attacks from Iran. Terrorism There is risk of terrorist violence, including terrorist attacks in Oman. Visit the U.S. Department of State\u2019s country reports on terrorism to learn more. Terrorism is a concern in Oman. Attacks can occur with little or no warning, especially around holidays. They can involve knives, firearms, and vehicles. Potential targets include: Important political, cultural, or religious locations Places visited by U.S. citizens and other foreigners Tourist locations and large gatherings Transportation hubs Markets and shopping malls Entertainment venues Government facilities Terrorists may use violence to respond to direct attacks against them or other military operations in the region. Aviation Safety The Federal Aviation Administration (FAA) issued an ongoing Special Federal Aviation Regulation and Notice to Airmen (NOTAM). This is due to risks to civil aviation operating within or nearby Yemen. For more information Americans should consult the Federal Aviation Administration\u2019s Prohibitions, Restrictions and Notices . Do Not Travel to the Yemen border area due to terrorism and armed conflict .",
+    "indicators": [
+      "TERRORISM",
+      "ARMED CONFLICT",
+      "DRONE / MISSILE"
+    ],
+    "adv_date": "2026-08-30",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.omn.html"
+  },
+  {
+    "id": "93242dbd",
+    "timestamp": "2026-08-29T12:00:00Z",
+    "date": "2026-08-29",
+    "iso_3": "SAU",
+    "country": "Saudi Arabia",
+    "type": "ELEVATED_ADVISORY",
+    "urgency": "HIGH",
+    "old_level": 3,
+    "new_level": 3,
+    "headline": "ELEVATED THREAT: SAUDI ARABIA CLASSIFIED LEVEL 3 [RECONSIDER TRAVEL]",
+    "summary": "Reconsider travel to Saudi Arabia due to risk of Iranian drone and missile targeting of American interests, armed conflict, terrorism, exit bans , and local laws regarding social media activity . Some areas have increased risk. Read the entire Travel Advisory. U.S. government employee travel restrictions As of August 30, 2026, family members may join U.S. government employees who work in Saudi Arabia. U.S. government employees working in Saudi Arabia are not allowed to travel within 20 miles of the Yemen border due to safety risks. U.S. government employees working in Saudi Arabia are not allowed to travel to Qatif for non-essential travel due to safety risks. U.S. government employees working in Saudi Arabia need special authorization to travel to the provinces of Jizan, Asir, Najran, and Qatif due to safety risks. Armed conflict Following the onset of hostilities between the United States and Iran on February 28, 2026, there has been an ongoing threat of drone and missile attacks from Iran. Commercial flights are operational from Saudi Arabia, though they have been significantly disrupted at times. Terrorism There is risk of terrorist violence, including terrorist attacks and other activity in Saudi Arabia. Visit the U.S. Department of State\u2019s country reports on terrorism to learn more. Terrorism is a concern in Saudi Arabia. Attacks can occur with little or no warning, especially around holidays. They can involve knives, firearms, and vehicles. Terrorists may use violence to respond to direct attacks against them or other military operations in the region. Potential targets include: Important political, cultural, or religious locations Places visited by U.S. citizens and other foreigners Tourist locations and large gatherings Hotels, and locations where American citizens gather Transportation hubs Markets and shopping malls Entertainment venues Government facilities Missile and drone attacks from Iran and threats from Houthis in Yemen. Iran has launched missile and drone attacks into Saudi Arabia. Attacks have targeted cities, infrastructure, airports, military bases, diplomatic, and energy facilities throughout the country. Iran-backed Houthi rebels have threatened to attack Saudi Arabia again. Falling debris from intercepted drones and missiles are also a risk. U.S. citizens living and working near energy infrastructure and military bases may be at increased risk, especially closer to the border with Yemen Exercise increased caution due to exit bans U.S. citizens have been prevented from leaving Saudi Arabia. Exit bans may be related to pending criminal and civil investigations and cases, including, but not limited to unpaid visa overstay fees, domestic family disputes, and other financial and labor disagreements. Exit bans prevent individuals from leaving the country. These can last for many years. In some cases, exit bans can continue even after a criminal sentence has been fully served or a private suit is settled. Exercise increased caution due to local laws Saudi authorities may detain you if they consider your social media posts or other online activity to be critical, offensive, or disruptive to the public order. U.S. citizens have been arrested for past social media activity, including comments posted while outside of Saudi Arabia. This may include posting, re-posting, or liking comments critical of the Saudi government or its leaders and policies. This also may apply to comments about public life or religion in Saudi Arabia. Local laws against cybercrime and terrorism may be used to prosecute cases related to social media use. Punishment for social media activity has included prison sentences of up to 45 years. Local authorities may not take into account when, where, or in what context posts are made. You are subject to local laws when traveling in Saudi Arabia. If you break laws in Saudi Arabia \u2013 even by mistake \u2013 you could be deported, fined, imprisoned, or subject to an exit ban. Some U.S. citizens have been detained for several months or even years without charges. Aviation safety The Federal Aviation Administration (FAA) has issued a Notice to Airmen (NOTAM) or a Special Federal Aviation Regulation (SFAR). This is due to risks to civil aviation operating within or nearby the Persian Gulf and the Gulf of Oman region, including Saudi Arabia. Consult the Federal Aviation Administration for the most up to date information on current FAA warnings. Do Not Travel to the Yemen border due to threat of terrorism .",
+    "indicators": [
+      "TERRORISM",
+      "CRIME",
+      "ARMED CONFLICT",
+      "DRONE / MISSILE"
+    ],
+    "adv_date": "2026-08-29",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html"
+  },
+  {
+    "id": "8300328b",
+    "timestamp": "2026-08-29T12:00:00Z",
+    "date": "2026-08-29",
+    "iso_3": "IRQ",
+    "country": "Iraq",
+    "type": "CRITICAL_ADVISORY",
+    "urgency": "CRITICAL",
+    "old_level": 4,
+    "new_level": 4,
+    "headline": "CRITICAL BULLETIN: IRAQ RETAINS LEVEL 4 [DO NOT TRAVEL]",
+    "summary": "Do not travel to Iraq due to terrorism, kidnapping, armed conflict, crime, health risks , and the U.S. government\u2019s limited ability to provide emergency services to U.S. citizens in Iraq . Do not travel to Iraq for any reason. The U.S. government has limited ability to offer emergency services to U.S. citizens in Iraq due to the safety risks. The Iraqi government cannot guarantee the safety of U.S. citizens against sudden outbreaks of violence and armed conflict. U.S. government employee travel restrictions The Department of State requires U.S. government personnel working in Iraq to live and work under strict security protocols due to serious threats. Due to safety risks, U.S. government employees need special authorization to travel to Iraq. Only family members who meet the following requirements may join U.S. government employees working in Iraq: Are 21 years of age or older, and Are employed by the U.S. government. Kidnapping U.S. citizens in Iraq face high risks, including violence and kidnapping. Terrorism There is a risk of terrorist violence, including terrorist attacks and other activity in Iraq. Terrorists, including Iran-aligned militias and ISIS, encourage and conduct attacks against U.S. persons and interests in Iraq. Visit the U.S. Department of State's country reports on terrorism to learn more. Crime and armed conflict Anti-U.S. militias threaten U.S. citizens and international companies. Attacks using improvised explosive devices, indirect fire, and unmanned aerial vehicles occur in many areas, including major cities. Targets of recent attacks have included hotels, universities, energy infrastructure, airports, and other locations perceived as affiliated with the United States, including diplomatic facilities. Health Emergency and intensive care facilities in Iraq are limited and likely unavailable outside of the largest cities. If you need emergency medical assistance, hospitals, doctors, ambulances, and medical supplies may be low quality or unavailable. Problems with transportation, roads, and safety can result in delays if you need medical evacuation. Aviation safety The Federal Aviation Administration (FAA) has issued a Special Federal Aviation Regulation (SFAR) and a Notice to Airmen (NOTAM) prohibiting certain flights in the region. This is due to risks to civil aviation operating within or near Iraq. For more information U.S. citizens should consult the Federal Aviation Administration\u2019s Prohibitions, Restrictions and Notices.",
+    "indicators": [
+      "TERRORISM",
+      "CRIME",
+      "KIDNAPPING",
+      "ARMED CONFLICT",
+      "HEALTH / EPIDEMIC"
+    ],
+    "adv_date": "2026-08-29",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.irq.html"
+  },
+  {
+    "id": "b9c6c99b",
+    "timestamp": "2026-08-29T12:00:00Z",
+    "date": "2026-08-29",
+    "iso_3": "JOR",
+    "country": "Jordan",
+    "type": "ELEVATED_ADVISORY",
+    "urgency": "HIGH",
+    "old_level": 3,
+    "new_level": 3,
+    "headline": "ELEVATED THREAT: JORDAN CLASSIFIED LEVEL 3 [RECONSIDER TRAVEL]",
+    "summary": "Reconsider travel to Jordan due to terrorism and armed conflict . Some areas have increased risk. Read the entire Travel Advisory. As of August 29, 2026, family members may join U.S. government employees who work in Jordan. Armed Conflict Following the onset of hostilities between the United States and Iran on February 28, 2026, there has been an ongoing threat of drone and missile attacks from Iran and significant disruptions to commercial flights. Terrorism There is a risk of terrorist violence, including terrorist attacks and other activity in Jordan. Visit the U.S. Department of State\u2019s country reports on terrorism to learn more. Terrorists may attack without warning, including such targets as: Tourist locations; Transportation hubs; Markets and shopping malls; Local government buildings. Jordan is relatively stable but due to high tensions in the region, the security environment remains complex and can change quickly. Zarqa City There is heightened risk of terrorism and crime in Zarqa City. All U.S. government personnel on official travel to this area must follow U.S. embassy travel restrictions. When traveling at night, U.S. government personnel on official travel must use major highways. Personal travel by U.S. government personnel to these areas is allowed only during daylight hours. Direct transit through these areas is permissible at night along major highways. Ma\u2019an City and Ma\u2019an Governorate There is heightened risk of terrorism and crime in the following areas: Ma\u2019an city All areas of Ma\u2019an Governorate east of Highway 15 (\u201cThe Desert Highway\u201d) All areas of Ma\u2019an Governorate within two kilometers to the west of Highway 15 All U.S. government personnel on official travel to these areas must follow U.S. embassy travel restrictions. When traveling at night, U.S. government personnel on official travel must use major highways. Personal travel by U.S. government personnel to these areas is allowed only during daylight hours. Direct transit through these areas is permissible at night along major highways. Review our information on Terrorism and Travel to High-Risk Areas . Aviation Safety For more information, Americans should consult the Federal Aviation Administration\u2019s Prohibitions, Restrictions and Notices . Do not travel to: Mansheyat al Ghayyath, Ruwayshid, and the border with Syria and Iraq due to the risk of terrorism and unrest . Designated Syrian refugee camps in Jordan due to the Government of Jordan\u2019s restrictions on entry into these camps . Rusayfah city due to the risk of terrorism and crime . The Baqa\u2019a neighborhood of Ayn Basha due to risk of terrorism and crime .",
+    "indicators": [
+      "TERRORISM",
+      "CRIME",
+      "ARMED CONFLICT",
+      "DRONE / MISSILE"
+    ],
+    "adv_date": "2026-08-29",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.jor.html"
+  },
+  {
+    "id": "39dd23a9",
+    "timestamp": "2026-08-29T12:00:00Z",
+    "date": "2026-08-29",
+    "iso_3": "ARE",
+    "country": "United Arab Emirates",
+    "type": "ELEVATED_ADVISORY",
+    "urgency": "HIGH",
+    "old_level": 3,
+    "new_level": 3,
+    "headline": "ELEVATED THREAT: UNITED ARAB EMIRATES CLASSIFIED LEVEL 3 [RECONSIDER TRAVEL]",
+    "summary": "Reconsider travel to the United Arab Emirates due to terrorism and armed conflict . U.S. government employees working in the UAE need special authorization to travel to military bases and critical energy infrastructure sites due to UAE government restrictions and potential security risks. As of August 29, 2026, family members may join U.S. government employees who work in UAE. Armed Conflict Following the onset of hostilities between the United States and Iran on February 28, 2026, there has been an ongoing threat of drone and missile attacks from Iran and significant disruptions to commercial flights. The Iranian regime has publicly stated its intention to target locations in the UAE associated with the United States. Terrorism There is a risk of terrorist violence, including terrorist attacks and other activity in the United Arab Emirates. Visit the U.S. Department of State\u2019s country reports on terrorism to learn more. Terrorists may attack with little or no warning and may target tourist locations, transportation hubs, shopping areas, government facilities, places of worship, and in particular locations associated with the Jewish and Israeli communities. Aviation Safety The Federal Aviation Administration (FAA) has issued an advisory Notice to Air Missions (NOTAM) or a Special Federal Aviation Regulation (SFAR). This is due to risks to civil aviation operating within or nearby the Persian Gulf and the Gulf of Oman region, including the UAE. For more information, Americans who plan to travel to the region should check the FAA\u2019s Prohibitions, Restrictions and Notices . Local laws Residents and visitors should be aware the UAE has strict rules on social behavior, drug possession, traffic violations, financial crimes, and video recording officials, members of the public, infrastructure, or military activity. Breaking these rules can lead to arrest, fines, or an exit ban. Americans should review the Department of State\u2019s Travel Guidances for UAE to learn about local laws, special circumstances, and additional information about travel to the United Arab Emirates.",
+    "indicators": [
+      "TERRORISM",
+      "CRIME",
+      "ARMED CONFLICT",
+      "DRONE / MISSILE"
+    ],
+    "adv_date": "2026-08-29",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.are.html"
+  },
+  {
+    "id": "85fd9b0a",
+    "timestamp": "2026-08-28T12:00:00Z",
+    "date": "2026-08-28",
+    "iso_3": "KWT",
+    "country": "Kuwait",
+    "type": "ELEVATED_ADVISORY",
+    "urgency": "HIGH",
+    "old_level": 3,
+    "new_level": 3,
+    "headline": "ELEVATED THREAT: KUWAIT CLASSIFIED LEVEL 3 [RECONSIDER TRAVEL]",
+    "summary": "Reconsider travel to Kuwait due to the threat of armed conflict , landmines , and crime . The U.S. government has limited ability to offer services to U.S. citizens in Kuwait due to safety risks. U.S. government employee travel restrictions Due to safety risks, U.S. government employees need special authorization to travel to Kuwait. Only family members 18 years of age or older may join U.S. government employees working in Kuwait. Armed conflict Following the onset of hostilities between the United States and Iran on February 28, 2026, there has been an ongoing threat of drone and missile attacks from Iran. Commercial aviation has also been seriously disrupted. Aviation safety The Federal Aviation Administration (FAA) has issued a Notice to Airmen (NOTAM) or a Special Federal Aviation Regulation (SFAR). This is due to risks to civil aviation operating within or nearby the Persian Gulf and the Gulf of Oman region, including Kuwait. Consult the Federal Aviation Administration for the most up to date information on current FAA warnings. Crime Exercise increased caution in the Jleeb Al-Shuyoukh area in Kuwait City because of crime. The Kuwaiti police report that the neighborhood of Jleeb Al-Shuyoukh near the Kuwait International Airport is a high-crime area. Landmines Landmines and unexploded ordnance exist in the desert area and some beaches north of the Mutla\u2019a Ridge and near the border with Iraq. The locations of landmines and unexploded ordnance are not marked, so it can be hard to know where they are. There may be unexploded bombs, shells, and landmines left over from the 1990 Gulf War. Do not travel to areas that are \u201coff the beaten path.\u201d Do not touch or move objects in those areas as they could explode.",
+    "indicators": [
+      "CRIME",
+      "ARMED CONFLICT",
+      "DRONE / MISSILE",
+      "UNEXPLODED ORDNANCE"
+    ],
+    "adv_date": "2026-08-28",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.kwt.html"
+  },
+  {
+    "id": "35817a26",
+    "timestamp": "2026-08-28T12:00:00Z",
+    "date": "2026-08-28",
+    "iso_3": "QAT",
+    "country": "Qatar",
+    "type": "ELEVATED_ADVISORY",
+    "urgency": "HIGH",
+    "old_level": 3,
+    "new_level": 3,
+    "headline": "ELEVATED THREAT: QATAR CLASSIFIED LEVEL 3 [RECONSIDER TRAVEL]",
+    "summary": "Reconsider travel to Qatar due to risk of armed conflict . U.S. government employee travel restrictions As of August 28, 2026, family members may join U.S. government employees who work in Qatar. Armed Conflict Following the onset of hostilities between the United States and Iran on February 28, 2026, there has been an ongoing threat of drone and missile attacks from Iran and significant disruptions to commercial flights. Aviation Safety The Federal Aviation Administration (FAA) has issued a Notice to Airmen (NOTAM) and/or a Special Federal Aviation Regulation (SFAR) for the region, including Qatar. This is due to risks to civil aviation from political and military tensions in the region. The notice advises U.S. operators to review current threat information and to report safety or security incidents. For more information, Americans should consult the Federal Aviation Administration\u2019s Prohibitions, Restrictions and Notices .",
+    "indicators": [
+      "ARMED CONFLICT",
+      "DRONE / MISSILE"
+    ],
+    "adv_date": "2026-08-28",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.qat.html"
+  },
+  {
+    "id": "7384f454",
+    "timestamp": "2026-08-28T12:00:00Z",
+    "date": "2026-08-28",
+    "iso_3": "UKR",
+    "country": "Ukraine",
+    "type": "CRITICAL_ADVISORY",
+    "urgency": "CRITICAL",
+    "old_level": 4,
+    "new_level": 4,
+    "headline": "CRITICAL BULLETIN: UKRAINE RETAINS LEVEL 4 [DO NOT TRAVEL]",
+    "summary": "Do not travel to Ukraine for any reason due to the Russia-Ukraine war . U.S. embassy operations The Embassy is open and operating in Kyiv; however, Embassy personnel are subject to movement, curfew, and activity restrictions, which may cause delays in provision of consular assistance to U.S. citizens outside of Kyiv. U.S. citizens seeking assistance, including routine services, should email KyivACS@state.gov . Review what the U.S. government can and cannot do to assist you in a crisis overseas. U.S. government employee travel restrictions U.S. government employees need special authorization to travel outside of Kyiv due to safety risks. Due to safety risks, the State Department does not authorize family members to join U.S. government employees in Ukraine. U.S. citizens in Ukraine are advised to take the same precautions. Armed conflict The Russia-Ukraine war continues, and non-frontline regions are also subject to Russian indiscriminate missile and drone attacks. The security situation can change quickly, and travelers should be prepared to depart immediately with little to no warning. Travelers should react to air alerts and seek appropriate shelter. Closed airspace restricts travel options, and non-frontline regions are subject to martial law restrictions, such as a nationwide curfew. U.S. government employees are subject to movement, curfew, and activity restrictions that may be more limited than Ukrainian government restrictions under martial law. All U.S. citizens should carefully monitor U.S. government notices and local and international media outlets for information about changing security conditions and alerts to shelter in place. U.S. citizens in Ukraine should stay vigilant and take appropriate steps to increase their security awareness in the event of military attacks. Download and turn on notifications for free mobile applications \u2013 which U.S. government personnel in Ukraine are required to have and monitor \u2013 that announce air alerts in real time, such as Air Raid Siren and Alarm Map . The U.S. Embassy does not have the ability to provide real-time alerts to the general U.S. citizen community of air threats. Always know the location of your closest shelter. In the event of mortar, artillery, missile, drone, or rocket fire, follow instructions from local authorities and seek shelter immediately. If you feel your current location is no longer safe, you should carefully assess the potential risks involved in moving to a different location. State of emergency On February 24, 2022, the Ukrainian government declared a state of emergency. Each region (oblast) decides on measures to be implemented according to local conditions. Measures could include: curfews restrictions on freedom of movement ID verification increased security inspections other measures Follow any oblast-specific state of emergency measures. Dual nationals While Ukrainian law does allow dual nationality, Ukraine will not recognize your U.S. citizenship if you are also a citizen of Ukraine. Dual citizens will be treated as Ukrainian citizens while in Ukraine and will be required to use a Ukrainian passport upon entry and exit of the country. Men aged 23-60 with Ukrainian citizenship are also subject to exit restrictions and possible mobilization during the period of martial law. The U.S. Embassy in Kyiv has received numerous reports of dual U.S.-Ukrainian citizens encountering significant difficulties both entering and exiting Ukraine. Travelers with family ties to Ukraine should consult the nearest Ukrainian Embassy or Consulate regarding potential citizenship obligations before entering Ukraine. For more information on traveling with dual nationality, please visit our Travelers with Dual Nationality page. Aviation safety The Federal Aviation Administration (FAA) has issued a Notice to Air Missions (NOTAM) prohibiting U.S. aviation operations into, out of, within, or over Ukraine. For more information, U.S. citizens should consult the FAA\u2019s Prohibitions, Restrictions, and Notices .",
+    "indicators": [
+      "ARMED CONFLICT",
+      "DRONE / MISSILE"
+    ],
+    "adv_date": "2026-08-28",
+    "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ukr.html"
+  },
+  {
+    "id": "c8f18cd0",
+    "timestamp": "2026-08-27T12:00:00Z",
+    "date": "2026-08-27",
+    "iso_3": "BIH",
+    "country": "Bosnia and Herzegovina",
+    "type": "CAUTION_ADVISORY",
+    "urgency": "MEDIUM",
+    "old_level": 2,
+    "new_level": 2,
+    "headline": "CAUTION DIRECTIVE: BOSNIA AND HERZEGOVINA CLASSIFIED LEVEL 2 [INCREASED CAUTION]",
+    "summary": "Exercise increased caution in Bosnia and Herzegovina due to risk of crime, landmines, and terrorism. Advisory summary Recent unrest has been politically related. While it has not impacted tourists or members of the international community, there is a risk that bystanders can be affected. Review our Travel Guidance for Bosnia and Herzegovina to learn how to prepare for a safe trip. Crime Sarajevo has a high rate of property-related crime, including robberies, residential and vehicle break-ins, and theft. Petty crime is common, especially in popular tourist locations. Stay aware of your surroundings. Most crimes against foreigners are crimes of opportunity, like purse snatching and pickpocketing. Other Landmines and unexploded ordnance exist throughout Bosnia and Herzegovina. While suspected hazardous areas are normally clearly marked, deaths from explosions have occurred as recently as August 2025. Terrorism There is risk of terrorist violence, such as terrorist attacks and other activity in the Balkans region, including Bosnia and Herzegovina. Visit the U.S. Department of State's Bosnia and Herzegovina country reports on terrorism to learn more. If you decide to travel to Bosnia and Herzegovina: Enroll in the Smart Traveler Enrollment Program (STEP) to get important updates and alerts from the U.S. embassy or consulate. Enrolling helps the U.S. embassy or consulate contact you or your emergency contact in an emergency. Review the Country Security Report for Bosnia and Herzegovina . Avoid demonstrations and crowds. Monitor local media for breaking events and adjust your plans based on new information. Visit the Centers for Disease Control and Prevention (CDC) website for the latest Travel Health Information for Bosnia and Herzegovina Prepare a backup plan for emergency situations. Review the Traveler&#8217;s Checklist . Whether you&#8217;re a first time or frequent traveler, use the International Travel Checklist . We highly recommend that you buy travel insurance before you travel. Check with your travel insurance provider about evacuation assistance, medical insurance, and trip cancelation coverage. Review our information on Crime Abroad and for Victims of Crime",
+    "indicators": [
+      "TERRORISM",
+      "CRIME",
+      "CIVIL UNREST",
+      "ARMED CONFLICT",
+      "HEALTH / EPIDEMIC",
+      "UNEXPLODED ORDNANCE"
+    ],
+    "adv_date": "2026-08-27",
+    "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/bosinia-and-herzegovina-travel-advisory.html"
+  }
+]

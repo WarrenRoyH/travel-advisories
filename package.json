@@ -1,0 +1,13 @@
+{
+  "name": "travel-advisories",
+  "version": "1.0.0",
+  "description": "Tactical US State Department Travel Advisories World Monitor",
+  "scripts": {
+    "sync": "python3 scripts/daily_sync.py",
+    "deploy": "bash scripts/deploy.sh",
+    "test-server": "python3 -m http.server 8787 --directory public"
+  },
+  "dependencies": {
+    "wrangler": "^4.78.0"
+  }
+}

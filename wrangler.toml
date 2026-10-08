@@ -1,0 +1,11 @@
+name = "travel-advisories"
+main = "worker.js"
+compatibility_date = "2024-09-23"
+
+routes = [
+  { pattern = "travel-advisories.hyltons.us", custom_domain = true }
+]
+
+[assets]
+directory = "public"
+binding = "ASSETS"
