@@ -111,20 +111,37 @@
    */
   async function loadData() {
     try {
-      const [advisoriesRes, summaryRes, changesRes, atlasRes, isoRes] = await Promise.all([
-        fetch('data/advisories.json'),
-        fetch('data/summary.json'),
-        fetch('data/changes.json'),
-        fetch('data/countries-50m.json'),
-        fetch('data/iso_mapping.json')
+      async function safeFetchJson(url) {
+        const res = await fetch(url);
+        if (!res.ok) {
+          throw new Error(`HTTP ${res.status} retrieving ${url}`);
+        }
+        return await res.json();
+      }
+
+      // Fetch primary assets
+      const [advisoriesData, summaryData, changesData, atlasData] = await Promise.all([
+        safeFetchJson('data/advisories.json'),
+        safeFetchJson('data/summary.json'),
+        safeFetchJson('data/changes.json'),
+        safeFetchJson('data/countries-50m.json')
       ]);
 
-      const advisoriesData = await advisoriesRes.json();
       state.advisories = advisoriesData.countries || {};
-      state.summary = await summaryRes.json();
-      state.changes = await changesRes.json();
-      state.atlas = await atlasRes.json();
-      const isoMapping = await isoRes.json();
+      state.summary = summaryData;
+      state.changes = changesData;
+      state.atlas = atlasData;
+
+      // Optional ISO mapping table with graceful fallback
+      let isoMapping = {};
+      try {
+        const isoRes = await fetch('data/iso_mapping.json');
+        if (isoRes.ok) {
+          isoMapping = await isoRes.json();
+        }
+      } catch (e) {
+        console.warn('Optional ISO mapping table fallback to embedded records:', e);
+      }
 
       // Build cross-reference dictionary
       buildCrossReference(isoMapping);
@@ -154,9 +171,24 @@
    */
   function buildCrossReference(isoMapping) {
     const numToAlpha3 = new Map();
-    Object.entries(isoMapping).forEach(([num, meta]) => {
-      numToAlpha3.set(num, meta.alpha3);
-      numToAlpha3.set(String(parseInt(num, 10)), meta.alpha3);
+
+    // 1. Ingest standalone ISO table if present
+    if (isoMapping && typeof isoMapping === 'object') {
+      Object.entries(isoMapping).forEach(([num, meta]) => {
+        if (meta && meta.alpha3) {
+          numToAlpha3.set(num, meta.alpha3);
+          numToAlpha3.set(String(parseInt(num, 10)), meta.alpha3);
+        }
+      });
+    }
+
+    // 2. Ingest directly from advisory dataset as guaranteed fallback
+    Object.values(state.advisories).forEach((adv) => {
+      if (adv && adv.iso_num && adv.iso_3) {
+        const rawNum = String(adv.iso_num);
+        numToAlpha3.set(rawNum, adv.iso_3);
+        numToAlpha3.set(String(parseInt(rawNum, 10)), adv.iso_3);
+      }
     });
 
     // Special territorial mappings

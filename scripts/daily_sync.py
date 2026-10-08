@@ -274,6 +274,14 @@ def run_sync():
         json.dump(current_data, f)
     print(f"[+] Saved public advisories: {pub_advisories}")
 
+    # Ensure iso_mapping.json is in public/data
+    src_iso = os.path.join(DATA_DIR, "iso_mapping.json")
+    pub_iso = os.path.join(PUBLIC_DATA_DIR, "iso_mapping.json")
+    if os.path.exists(src_iso):
+        with open(src_iso, "r") as sf, open(pub_iso, "w") as df:
+            df.write(sf.read())
+        print(f"[+] Synced public ISO mapping: {pub_iso}")
+
     # Save public changes
     pub_changes = os.path.join(PUBLIC_DATA_DIR, "changes.json")
     changes_payload = {

@@ -23,6 +23,9 @@ if [ -f "$PROJECT_DIR/.env" ]; then
   source "$PROJECT_DIR/.env"
 fi
 
+export CLOUDFLARE_ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID:-d7617dbd740f2c120f3a3a4a81086fbd}"
+export CLOUDFLARE_API_TOKEN="${CLOUDFLARE_API_TOKEN:-cfut_UNWB0NKVThiVeJEof9snnKDgMCAPBVNbBTmE1bgxbf252a84}"
+
 npx wrangler deploy
 
 # 3. Verify Live Endpoint
